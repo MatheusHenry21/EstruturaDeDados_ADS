@@ -20,11 +20,13 @@ public class CadastroAluno {
 
         System.out.println("Quantidade de alunos: " + classe.tamanho());
 
-        boolean encontrado = false;
-        for (int i = 0; i < classe.tamanho(); i++) {
-            System.out.print("Digite o nome do aluno: ");
-            String nome = sc.nextLine();
+        System.out.println("Aluno da posição 3 é: " + classe.busca(3));
 
+        boolean encontrado = false;
+        System.out.print("Digite o nome do aluno: ");
+        String nome = sc.nextLine();
+
+        for (int i = 0; i < classe.tamanho(); i++) {
             if (classe.busca(i).equals(nome)) {
                 System.out.println("Posição: " +  i);
                 encontrado = true;
