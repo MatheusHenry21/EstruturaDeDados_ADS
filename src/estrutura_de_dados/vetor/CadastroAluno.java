@@ -26,7 +26,7 @@ public class CadastroAluno {
             String nome = sc.nextLine();
 
             if (classe.busca(i).equals(nome)) {
-                System.out.println("Posição: " +  classe.busca(i));
+                System.out.println("Posição: " +  i);
                 encontrado = true;
                 break;
             }
