@@ -1,6 +1,6 @@
 package estrutura_de_dados.vetor;
 
-import estruturadados.vetor.Vetor;
+import estrutura_de_dados.vetor.Vetor;
 
 import java.util.Scanner;
 

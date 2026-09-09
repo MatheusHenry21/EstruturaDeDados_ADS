@@ -1,4 +1,4 @@
-package estruturadados.vetor;
+package estrutura_de_dados.vetor;
 
 public class Vetor {
     private String[] elementos;
@@ -104,4 +104,10 @@ public class Vetor {
         this.tamanho--;
 
     }
+
+    public int espacosDisponiveis(){
+        return this.elementos.length - this.tamanho;
+    }
+
+    
 }
