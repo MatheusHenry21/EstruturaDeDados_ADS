@@ -78,7 +78,7 @@ public class Fila<T> {
         }
 
         T elemento = this.elementos[0];
-        for (int i = 0; i < this.tamanho; i++) {
+        for (int i = 0; i < this.tamanho - 1; i++) {
             this.elementos[i] =  this.elementos[i + 1];
         }
         this.tamanho--;
