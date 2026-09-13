@@ -19,5 +19,9 @@ public class TestandoPilha {
 
         //6. mostre novamente o topo
         System.out.println("Topo: " + pilha.topo());
+
+        //3. Mostrar elementos da pilha
+        //Sobrescreva o metodo toString() da classe Pilha para exibir os elementos no formato:
+        System.out.println(pilha);
     }
 }
