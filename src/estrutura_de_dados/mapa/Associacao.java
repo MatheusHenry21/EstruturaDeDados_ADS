@@ -23,10 +23,6 @@ public class Associacao<K, V> {
 
   @Override
   public String toString() {
-    final StringBuilder sb = new StringBuilder("Associacao{");
-    sb.append("chave=").append(chave);
-    sb.append(", value=").append(value);
-    sb.append('}');
-    return sb.toString();
+    return "{" + chave + ", " + value + "}";
   }
 }
